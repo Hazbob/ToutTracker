@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tout Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <header>
+    <h1>Tout Tracker</h1>
+    <div class="total-spend">
+      <h2 class="spend-amount">£0</h2>
+    </div>
+  </header>
+  <body>
+    <div class="container">
+      <nav>
+        <input id="event-name" type="text" placeholder="Event Name..." />
+        <input id="event-date" type="text" placeholder="Event Date..." />
+        <input id="venue-name" type="text" placeholder="Venue..." />
+        <input id="booking-ref" type="text" placeholder="Booking Ref..." />
+        <input id="section" type="text" placeholder="Section..." />
+        <input id="row" type="text" placeholder="Row..." />
+        <input id="seat" type="text" placeholder="Seats e.g 100-104" />
+        <input id="total-cost" type="text" placeholder="Total Cost..." />
+        <button id="add">Add to Tracker &rarr;</button>
+      </nav>
+      <!-- container for whole tracker - add a child to this -->
+      <div class="tracker">
+        <!-- this is the container for each row -->
+        <div class="ticket-info">
+          <!-- these are the columns but confusingly called row for now -->
+          <div class="row">
+            <p>Event Name</p>
+          </div>
+          <div class="row">
+            <p>Event Date</p>
+          </div>
+          <div class="row">Venue</div>
+          <div class="row">Booking Reference</div>
+          <div class="row">Section</div>
+          <div class="row">Row</div>
+          <div class="row">Seats</div>
+          <div class="row">Total Cost</div>
+        </div>
+      </div>
+      <!-- need to add a whole new tracker for each time the button is clicked -->
+    </div>
+  </body>
+</html>
