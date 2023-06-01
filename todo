@@ -1,0 +1,27 @@
+1. make it so that the first letter of each word is capitalised on entry + stop it saying #
+
+2. format the date when they input something like 4th june
+
+3. add checkbox if its sold, with a modal popup after clicking of how much - then add that to the profit calculator
+4. make it so that they cannot add a blank row - only if all of the columns are empty though
+
+5. calendar page corresponding to all of the dates that they have input
+
+6. the ability to update each column incase of a mistake or changed info
+
+7. possibly have an upcoming events tab using some kind of api integration
+
+8. some kind og script that checks to see how close the event is and alerts or changes colour depending on how close the event is if it is sold
+
+9. when the event is clicked as sold it will add that event and all the info to a sold page so a seller can see their full sales history
+10. automatic sort the events when clicking the sort button to automatically sort each rows date in nearest to furthest away to make it more streamlined and be able to see the nearest event
+
+11. simplify the input - example just type - coldplay 4th june 200.50, and this automatically parses the string into the information we need for the spreadsheet and fills that in
+
+12. estimated time of getting all of the money back
+
+13. monthly payouts - so a page where you can see how much you will atleast be getting back in rrp from tickets and adds the profit to that if they are listed as sold
+
+14. more design work needed
+
+15. mobile friendly, not too sure how to do that as tables are ingherently not mobile design friendly, but maybe the mobile site can have a simple input tab to put in on the go and then can see the full seller dashboard on line - with maybe some basic things like total spend, total profit and input for the mobile site
