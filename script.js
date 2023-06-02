@@ -83,6 +83,8 @@ const capitalise = function (word) {
 //function to check if total spend is NaN - this will be called after each update to correct - probs a better way to do this
 const checkTotal = function (totalAmountSpentEl) {
   if (totalSpendEl.textContent == `£NaN`) {
+    totalAmount = 0;
     totalSpendEl.textContent = `£0`;
   }
 };
+//this function will allow for me to format the date to a 24/05/23

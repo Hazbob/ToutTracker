@@ -1,6 +1,6 @@
 1. make it so that the first letter of each word is capitalised on entry + stop it saying
 
-2. format the date when they input something like 4th june
+2. format the date when the input 4th june - this was a bad idea and i will just add an instructions element
 
 3. add checkbox if its sold, with a modal popup after clicking of how much - then add that to the profit calculator
 4. make it so that they cannot add a blank row - only if all of the columns are empty though

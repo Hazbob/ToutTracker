@@ -67,6 +67,7 @@ header h2 {
   height: 40%;
   width: 10%;
   text-align: center;
+  width: fit-content;
 }
 
 .row-title {
