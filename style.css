@@ -14,6 +14,7 @@ header {
   gap: 60px;
   height: 80px;
   color: black;
+  justify-content: space-between;
 }
 button {
   background: transparent;
@@ -60,7 +61,7 @@ header h2 {
 }
 
 .total-spend {
-  background-color: blue;
+  background-color: #fffab0;
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 25px;
@@ -81,6 +82,7 @@ header h2 {
 }
 
 .delete-btn {
+  background-color: #fffab0;
 }
 
 .row:last-child {
@@ -89,7 +91,29 @@ header h2 {
 }
 
 .row-title:last-child {
-  color: transparent;
+  /* color: transparent;
   background-color: transparent;
-  border: none;
+  border: none; */
+}
+
+.current-time {
+  background-color: #fffab0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  height: 40%;
+  width: 10%;
+  text-align: center;
+  width: 18%;
+}
+
+h1 {
+  background-color: #fffab0;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
 }

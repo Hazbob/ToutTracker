@@ -4,6 +4,7 @@ const inputTags = document.querySelectorAll("input");
 const addButton = document.querySelector("#add");
 const container = document.querySelector(".container");
 const totalSpendEl = document.querySelector(".spend-amount");
+const timeEl = document.querySelector(".time-class");
 totalSpendEl.innerHTML = "£0";
 let totalAmount = 0;
 
@@ -43,7 +44,7 @@ addButton.addEventListener("click", function (e) {
         <div class="row">${row}</div>
         <div class="row">${seats}</div>
         <div class="row cost">${cost}</div>
-        <div class="row"><button class="delete-btn">Delete</button></div>
+        <div class="row"><button class="delete-btn">&#10060;</button></div>
       </div>
     </div>`;
   container.insertAdjacentHTML("beforeend", rowHtml);
@@ -88,3 +89,17 @@ const checkTotal = function (totalAmountSpentEl) {
   }
 };
 //this function will allow for me to format the date to a 24/05/23
+
+//adding this now, but when i add a login screen there is a good chance this wont work
+
+setInterval(function () {
+  const now = new Date(Date.now());
+  const test = now.getMinutes();
+  // console.log(typeof test);
+  const mins = test <= 9 ? `0${test}` : test;
+  const secs =
+    now.getSeconds() <= 9 ? `0${now.getSeconds()}` : now.getSeconds();
+  // const test =
+  //  <= 5 ? console.log(`zero`) : console.log(`more than zero`);)
+  timeEl.textContent = `${now.getHours()}:${mins}:${secs}`;
+}, 1000);
